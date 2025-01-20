@@ -1,0 +1,25 @@
+#CODE
+
+print("hello I am your calcuater.")
+print("I can add, subtract,divide and multiply for you !!!! ")
+fmv = int(input("lets start :- 1 = subtract , 2 = add , 3 = multiply ,and 4 = divide"))
+fn = float (input ("what is your first number"))
+sn = float (input ("what is your second number")) 
+if fmv<1:
+    print ("this is invalid/not possible")
+    exit()
+if fmv>4:
+    print ("this is invalid/not possible")
+    exit()
+if fmv ==  1  :
+    print (f"your answer is {fn - sn} 😁 ")
+    exit()
+if fmv ==  2 :
+    print (f"your answer is {fn + sn} 😁 ")
+    exit()
+if fmv ==  3 :
+    print (f"your answer is {fn * sn} 😁 ")
+    exit()
+if fmv ==  4 :
+    print (f"your answer is {fn / sn} 😁 ")  
+    exit()
